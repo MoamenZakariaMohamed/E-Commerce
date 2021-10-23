@@ -1,9 +1,11 @@
 import React from 'react'
 
-const PaymentForm = () => {
+
+
+const PaymentForm = (checkoutToken) => {
     return (
         <div>
-            Paymnet Form
+           <h3 style={{textAlign:'center'}}> Purchase completed successfully </h3>
         </div>
     )
 }
